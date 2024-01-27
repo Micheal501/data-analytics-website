@@ -1,10 +1,10 @@
-import Logo from '../atoms/Logo';
 import List from '../atoms/List';
-const Nav = () => {
+import Logo from '../atoms/Logo';
+const DropDown = () => {
   return (
     <>
       <Logo logo='DATA.' />
-      <ul className='flex hidden'>
+      <ul className='p-4'>
         <List list='Home' />
         <List list='Company' />
         <List list='Resources' />
@@ -14,4 +14,5 @@ const Nav = () => {
     </>
   );
 };
-export default Nav;
+
+export default DropDown;
