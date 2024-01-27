@@ -14,17 +14,23 @@ const NavBar = () => {
   return (
     <>
       <div className='flex text-white justify-between items-center px-4 h-24 max-w-[1240px] mx-auto'>
+        {/* Default */}
         <Nav />
+
+        {/* Mobile Screen */}
         <div
           className={
             !nav
-              ? 'fixed uppercase left-0 top-0 w-[60%] h-full border-r border-r-slate-900 bg-slate-900'
+              ? 'fixed uppercase left-0 top-0 w-[60%] h-full border-r border-r-slate-900 bg-slate-900 ease-in-out duration-500'
               : 'left-[-100%] fixed'
           }
         >
           <DropDown />
         </div>
-        <div onClick={handleNav}>
+        <div
+          onClick={handleNav}
+          className='block md:hidden'
+        >
           {!nav ? <CloseIcon /> : <HamburgerIcon />}
         </div>
       </div>
