@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <>
       <Logo logo='DATA.' />
-      <ul className='flex hidden'>
+      <ul className='md:flex hidden'>
         <List list='Home' />
         <List list='Company' />
         <List list='Resources' />
