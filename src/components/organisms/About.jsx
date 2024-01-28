@@ -3,7 +3,7 @@ import Button from '../atoms/Button';
 const About = () => {
   return (
     <>
-      <div className='md:flex md:justify-center md:items-center bg-white py-12 h-[50rem]'>
+      <div className='md:flex md:justify-center md:items-center bg-white py-12 h-[50rem] md:h-[40rem]'>
         <div className='w-full flex justify-center md:w-1/2 h-[23rem]'>
           <img
             src='/public/images/data.jpg'
@@ -23,7 +23,7 @@ const About = () => {
             laudantium ullam blanditiis architecto et minima! Mollitia veritatis
             animi ullam maxime?
           </p>
-          <div className='text-center md:text-left'>
+          <div className='text-center md:text-left py-6'>
             <Button titleButton='Get Started' />
           </div>
         </div>

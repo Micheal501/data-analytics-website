@@ -26,7 +26,9 @@ const HeroSection = () => {
             Monitor your data analytics to increase revenue for BTB, BTC, SASS
             platforms
           </p>
-          <Button titleButton='Get Started' />
+          <div className='mt-8'>
+            <Button titleButton='Get Started' />
+          </div>
         </div>
       </div>
     </>
