@@ -5,7 +5,7 @@ import HamburgerIcon from '../atoms/Icons/Hamburger';
 import CloseIcon from '../atoms/Icons/Close';
 
 const NavBar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
 
   const handleNav = () => {
     setNav(!nav);
